@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/stoke"
+            android:gravity="center"
+            android:text="@string/unit_converter"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="50dp"
+           android:layout_marginBottom="50dp">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" >
+
+               <Button
+                   android:id="@+id/convert_button"
+                   android:layout_width="198dp"
+                   android:layout_height="50dp"
+                   android:layout_marginStart="5dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:background="#3BB340"
+                   android:fontFamily="sans-serif"
+                   android:text="@string/convert_quantity"
+                   android:textSize="16sp"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/add_button"
+                   android:layout_width="198dp"
+                   android:layout_height="50dp"
+                   android:layout_alignParentEnd="true"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:layout_marginEnd="5dp"
+                   android:background="#EC4545"
+                   android:fontFamily="sans-serif"
+                   android:text="@string/add_quantities"
+                   android:textSize="16sp"
+                   android:textStyle="bold" />
+
+           </RelativeLayout>
+
+       </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

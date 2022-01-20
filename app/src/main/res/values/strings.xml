@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuantityMeasurement</string>
+    <string name="unit_converter">UNIT CONVERTER</string>
+    <string name="add_quantities">ADD QUANTITIES</string>
+    <string name="convert_quantity">CONVERT QUANTITY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">ADD</string>
+    <string name="convert">CONVERT</string>
+</resources>
